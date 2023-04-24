@@ -15,18 +15,18 @@ Funkcjonalności:
   - zmiana języka na angielski podczas logowania
 * możliwość skontaktowania się przez Slack z Dev team
 * dodanie nowego gracza:
-- dane gracza
-- opcja dodania języków jakimi się posługuje
-- opcja dodania linka z Youtube'a
-- opcja zatwierdzenia lub wyczyszczenia wpisanych informacji
+  - dane gracza
+  - opcja dodania języków jakimi się posługuje
+  - opcja dodania linka z Youtube'a
+  - opcja zatwierdzenia lub wyczyszczenia wpisanych informacji
 * dodanie meczu
 * dodanie  raportu
 * przeglądnięcie dostępnych meczów i raportów dla zawodnika i możliwość ich edycji
 * w zakładce gracze, możliwość:
-- filtrowania graczy
-- pobrania pliku CSV wszystkich graczy z informacją o nich
-- wydruku tych informacji
-- wyświetlania kolumn w zależności od ustawionych filtrów
+  - filtrowania graczy
+  - pobrania pliku CSV wszystkich graczy z informacją o nich
+  - wydruku tych informacji
+  - wyświetlania kolumn w zależności od ustawionych filtrów
 * wyszukiwarka 
 
 Interfejs aplikacji:
