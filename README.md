@@ -11,8 +11,8 @@ Aplikacja służy do zarządzania graczami, meczami i do tworzenia raportów.
 
 Funkcjonalności:
 * zalogowanie/wylogowanie:
-- przypomnienie hasła
-- zmiana języka na angielski podczas logowania
+ - przypomnienie hasła
+ - zmiana języka na angielski podczas logowania
 * możliwość skontaktowania się przez Slack z Dev team
 * dodanie nowego gracza:
 - dane gracza
