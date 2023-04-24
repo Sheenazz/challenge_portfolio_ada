@@ -9,6 +9,7 @@ Moim celem jest wstępne przekonanie się czy testowanie to coś dla mnie, czy w
 ## Subtask 4
 Aplikacja służy do zarządzania graczami, meczami i do tworzenia raportów.
 
+
 Funkcjonalności:
 * zalogowanie/wylogowanie:
   - przypomnienie hasła
@@ -28,6 +29,7 @@ Funkcjonalności:
   - wydruku tych informacji
   - wyświetlania kolumn w zależności od ustawionych filtrów
 * wyszukiwarka 
+
 
 Interfejs aplikacji:
 Interfejs jest prosty i przejrzysty, ale mógłby być bardziej intuicyjny. Nie wszystkie funkcje są zrozumiałe. Do zmiany:
