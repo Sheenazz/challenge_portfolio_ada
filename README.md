@@ -6,7 +6,7 @@ Zdecydowałam się na udział w Portfolio challenge, ponieważ w poprzednich pra
 
 Moim celem jest wstępne przekonanie się czy testowanie to coś dla mnie, czy właśnie tu jest ukryta nisza, w której się odnajdę. Liczę, że dzięki projektowi poznam podstawy testowania, zrobię swój pierwszy projekt i poznam nowe osoby dzielące te same zainteresowania, z którymi będziemy się motywować i wspierać w znalezieniu pierwszej pracy.
 
-**Link do mojego folderu projektowego w Google Drive: **[Challenge portfolio](https://drive.google.com/drive/folders/1hax-jaVoWcHCva8wGOgDqQFPxJeRWTLD?usp=share_link) 
+**Link do mojego folderu projektowego w Google Drive:** [Challenge portfolio](https://drive.google.com/drive/folders/1hax-jaVoWcHCva8wGOgDqQFPxJeRWTLD?usp=share_link) 
 
 ## Subtask 4
 Aplikacja służy do zarządzania graczami, meczami i do tworzenia raportów.
