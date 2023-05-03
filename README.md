@@ -45,3 +45,7 @@ Interfejs jest prosty i przejrzysty, ale mógłby być bardziej intuicyjny. Nie 
 - nie bardzo rozumiem opcje "rozpocznij mecz" - nie zrozumiałam jak to działa, jak dodać jakąś akcję (czy to błąd?)
 - możliwość dodania nieskończonej liczby połów meczu - bez sensu. (czy to błąd?)
 - raport mógłby być inaczej skonstruowany, teraz jest dla mnie chaotyczny
+
+
+# Task 2
+## Subtask 3
