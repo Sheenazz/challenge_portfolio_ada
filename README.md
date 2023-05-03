@@ -49,3 +49,5 @@ Interfejs jest prosty i przejrzysty, ale mógłby być bardziej intuicyjny. Nie 
 
 # Task 2
 ## Subtask 3
+Przypadki testowe piszemy po to by udokumentować użycie funkcjonalności aplikacji oraz by sprawdzić czy one działają. To uchroni nas przed błędami po wypuszczeniu aplikacji, zaoszczędzi dodatkowej pracy, zaoszczędzi pieniądze jeśli przez błędy byłyby nałożone kary pieniężne. Jeśli unikniemy błędów pokaże to firmę w dobrym świetle w oczach klienta. Również dla nowo przyjętych osób osób przypadki testowe są źródłem wiedzy o działaniu aplikacji.
+Pisanie przypadków testowych jest też przydatne przy automatyzacji testów, ponieważ kroki jakie powinny być zautomatyzowane są dokładnie opisane.
