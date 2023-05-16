@@ -51,3 +51,37 @@ Interfejs jest prosty i przejrzysty, ale mógłby być bardziej intuicyjny. Nie 
 ## Subtask 3
 **Przypadki testowe** piszemy po to by udokumentować użycie funkcjonalności aplikacji oraz by sprawdzić czy one działają. To uchroni nas przed błędami po wypuszczeniu aplikacji, zaoszczędzi dodatkowej pracy, zaoszczędzi pieniądze jeśli przez błędy byłyby nałożone kary pieniężne. Jeśli unikniemy błędów pokaże to firmę w dobrym świetle w oczach klienta. Również dla nowo przyjętych osób osób przypadki testowe są źródłem wiedzy o działaniu aplikacji.
 Pisanie przypadków testowych jest też przydatne przy automatyzacji testów, ponieważ kroki jakie powinny być zautomatyzowane są dokładnie opisane.
+
+
+# Task 4
+## Subtask 3
+
+1.	Aplikacja służy do:
+- sprzedawania i kupowania produktów
+- wystawiania ogłoszeń np. wynajmu mieszkania
+- wystawiania ofert pracy
+- oferowania usług
+
+Jej celem jest ułatwienie procesów związanych ze sprzedażą, kupnem, wynajmem, szukaniem pracy, oferowaniem usług itd. Jej celem jest również aspekt finansowy, firma bogaci się np. na opłatach za promowanie ogłoszenia.
+
+2.	Użytkownikiem końcowym jest osoba, która korzysta z oferowanych przez OLX usług czy to przez sprzedanie swojego produktu, czy osoba, która coś kupuje, osoba, która nawiązuje kontakt w sprawie wynajmu mieszkania, osoba, która znajduje pracę itd.
+
+3.	Uważam, że tak. Aplikacja OLX jest user friendly. Jest czytelna, przyciski są dobrze opisane, jest szybka (nie zacina się, nie ładuje się za długo). Zakładki są dobrze opisane, kontakt między użytkownikami jest ułatwiony. Wyszukiwanie jest proste, dodawanie ogłoszenia również.
+
+4.	
+Poprawa funkcjonalności nr 1:
+Kiedy wchodzimy np. w zakładkę „Praca”, wybieramy kategorie i przeglądamy oferty klikając „cofnij” przenosi nas do strony głównej. Uważam, że lepiej byłoby gdyby przenosiło użytkownika z powrotem do wyboru kategorii pracy. Przeklikiwanie się od początku zajmuje więcej czasu i jest (dla mnie) nieintuicyjne.
+
+Poprawa funkcjonalności nr 2:
+Nie rozumiem czym różni się kategoria „Usługi” i „Usługi i Firmy”. Wchodząc w kategorię „Usługi” i dalej np. „Budowa i remont”, dalej „Prace zewnętrzne” widzę ogłoszenia typu „kubek”, „obciążniki do ćwiczeń”, „sukienka mieniąca”, mało co związane jest z faktycznie z budową i remontem, wygląda to trochę jak śmietnik, do którego wszystko wpada. Koniecznie bym to poprawiła.
+
+5.	Różnice między testowaniem aplikacji internetowych i natywnych:
+
+
+| n/a | Aplikacja internetowa |	Aplikacja natywna |
+| --- | --------------------- | ----------------- |
+| Trzeba zwrócić uwagę wygodę korzystania z niej palcami | Nie | Tak |
+| Sprawdzenie czy ekran się nie przekręca |	Nie	| Tak |
+| Łatwiejszy dostęp ze strony głównej do wszystkich kategorii |	Tak |	Nie |
+| Dostęp do informacji o aplikacji | Tak | Nie |
+
