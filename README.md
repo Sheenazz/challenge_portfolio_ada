@@ -1,6 +1,6 @@
 # Task 1
 ## Subtask 1
-9 punktów :).
+9 punktów :partying_face:
 ## Subtask 3
 Zdecydowałam się na udział w Portfolio challenge, ponieważ w poprzednich pracach odkryłam swój talent do bycia dokładną, a także mam frajdę w znajdywaniu błędów. Postanowiłam więc spróbować swoich sił w testowaniu. Jako, że brałam udział w programie mentoringowym Dare IT, wiedziałam, że będzie to dobry jakościowo kurs. Podoba mi się też, że jest nastawiony na zdobycie praktycznych umiejętności, a na tym mi zależało.
 
@@ -68,12 +68,12 @@ Jej celem jest ułatwienie procesów związanych ze sprzedażą, kupnem, wynajme
 
 **Ad 3.**	Uważam, że tak. Aplikacja OLX jest user friendly. Jest czytelna, przyciski są dobrze opisane, jest szybka (nie zacina się, nie ładuje się za długo). Zakładki są dobrze opisane, kontakt między użytkownikami jest ułatwiony. Wyszukiwanie jest proste, dodawanie ogłoszenia również.
 
-**Ad 4.**
+**Ad 4.** Pomysły na poprawę funkcjonalności:
 
-Poprawa funkcjonalności nr 1:
+*Poprawa funkcjonalności nr 1:*
 Kiedy wchodzimy np. w zakładkę „Praca”, wybieramy kategorie i przeglądamy oferty klikając „cofnij” przenosi nas do strony głównej. Uważam, że lepiej byłoby gdyby przenosiło użytkownika z powrotem do wyboru kategorii pracy. Przeklikiwanie się od początku zajmuje więcej czasu i jest (dla mnie) nieintuicyjne.
 
-Poprawa funkcjonalności nr 2:
+*Poprawa funkcjonalności nr 2:*
 Nie rozumiem czym różni się kategoria „Usługi” i „Usługi i Firmy”. Wchodząc w kategorię „Usługi” i dalej np. „Budowa i remont”, dalej „Prace zewnętrzne” widzę ogłoszenia typu „kubek”, „obciążniki do ćwiczeń”, „sukienka mieniąca”, mało co związane jest z faktycznie z budową i remontem, wygląda to trochę jak śmietnik, do którego wszystko wpada. Koniecznie bym to poprawiła.
 
 **Ad 5.**	Różnice między testowaniem aplikacji internetowych i natywnych:
