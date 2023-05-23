@@ -87,6 +87,22 @@ Nie rozumiem czym różni się kategoria „Usługi” i „Usługi i Firmy”. 
 | Dostęp do informacji ogólnych o aplikacji | Tak | Nie |
 
 # Task 5
+## Subtask 1
+
+Operatory/zapytania, których nauczyłam się z kursu:
+- SELECT
+- ORDER BY
+- ORDER BY DESC
+- WHERE
+- BETWEEN
+- AND
+- LIKE
+- OR 
+- IS NULL
+- IS NOT NULL
+- GROUP BY
+- JOIN ... ON ...
+
 ## Subtask 3
 
 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
