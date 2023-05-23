@@ -97,3 +97,75 @@ ORDER BY surname;
 
 ![Przechwytywanie](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/4bf65f2d-a8de-44cd-b0c4-320964627176)
 
+2. Wyświetl film, który powstał w 2019 roku.
+
+Rozwiązanie: 
+SELECT * FROM movies
+WHERE year_of_production = '2019';
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/31e1fc3b-d1f3-467b-89dc-f7351ede5524)
+
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+Rozwiązanie: 
+SELECT * FROM movies
+WHERE year_of_production BETWEEN '1900' AND '1999';
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/a705123f-f7d9-44a7-a850-1179b605eb52)
+
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+
+Rozwiązanie:
+SELECT title, price
+FROM movies
+WHERE price < 7;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/0de4594c-b7c2-4188-b006-847acf2fb068)
+
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+Rozwiązanie:
+SELECT * FROM actors
+WHERE actor_id >= '4' AND actor_id <= '7';
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/d74ca5b8-9514-471e-8572-a7c5ce6314cb)
+
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+Rozwiązanie:
+SELECT * FROM customers
+WHERE customer_id IN (2,4,6);
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/7602d036-4136-4efb-8c52-94961cb9e27c)
+
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+Rozwiązanie:
+SELECT * FROM customers
+WHERE customer_id IN (1,3,5);
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/1a9daa5b-5a23-4bfe-bbb3-728c431d9b3b)
+
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+Rozwiązanie:
+SELECT * FROM actors
+WHERE name LIKE 'An%';
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/c46e9025-bd7f-4aca-b207-fb972ab6f28b)
+
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+Rozwiązanie:
+SELECT * FROM customers
+WHERE email IS NULL;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/f8a85ad3-998d-4e64-b1d9-d8653a7576c5)
+
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+Rozwiązanie:
+SELECT * FROM movies
+WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/8c8c9a22-4110-4608-b037-3a7f34b95214)
