@@ -237,3 +237,53 @@ UPDATE customers
 SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname, 1));
 
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/2cdb844a-b1ed-478c-8862-cf47e07d7bb2)
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+**Rozwiązanie:**
+SELECT DISTINCT title
+FROM movies
+INNER JOIN sale
+ON movies.movie_id = sale.movie_id;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/e6f4b731-1e8a-4bcb-985f-e034c8f972b2)
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+**Rozwiązanie:**
+SELECT name FROM customers
+UNION
+SELECT name FROM actors
+ORDER BY name;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/1bc3da6e-6b7b-407a-9f25-2891045eccf4)
+
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
+**Rozwiązanie:**
+UPDATE movies
+SET price = price + 2.5 
+WHERE year_of_production > 2000;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/bda30098-82c7-4b30-99e6-c25875ba9dee)
+
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+
+**Rozwiązanie:**
+SELECT actors.name, actors.surname, movies.title
+FROM cast
+INNER JOIN movies
+ON cast.movie_id = movies.movie_id
+INNER JOIN actors
+ON cast.actor_id = actors.actor_id
+WHERE actors.actor_id = '4';
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/d0aee8ab-796d-49c6-8bad-ad79c4a5c8ac)
+
+20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+**Rozwiązanie:**
+INSERT INTO customers (customer_id, name, surname, email, pseudonym)
+VALUES ('7', 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/aff8f5fe-6941-483c-8287-4070c09d1379)
