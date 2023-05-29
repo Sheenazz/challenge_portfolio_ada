@@ -118,16 +118,20 @@ ORDER BY surname;
 2. Wyświetl film, który powstał w 2019 roku.
 
 **Rozwiązanie:**
+```
 SELECT * FROM movies
 WHERE year_of_production = '2019';
+```
 
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/31e1fc3b-d1f3-467b-89dc-f7351ede5524)
 
 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
 **Rozwiązanie:**
+```sql
 SELECT * FROM movies
 WHERE year_of_production BETWEEN '1900' AND '1999';
+```
 
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/a705123f-f7d9-44a7-a850-1179b605eb52)
 
