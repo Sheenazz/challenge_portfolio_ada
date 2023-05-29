@@ -206,6 +206,9 @@ WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/8c8c9a22-4110-4608-b037-3a7f34b95214)
 
+# Task 6
+## Subtask 1
+
 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
 
 **Rozwiązanie:**
@@ -329,3 +332,11 @@ VALUES ('7', 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
 ```
 
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/aff8f5fe-6941-483c-8287-4070c09d1379)
+
+## Subtask 2 
+Wynik testu Ecru ze strony http://getistqb.com/: **12/15**
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/bde8d864-bbb9-4f08-8a99-f7e172de0e5a)
+
+## Subtask 3
+:point_right: **Link do mojego portfolio:** 
