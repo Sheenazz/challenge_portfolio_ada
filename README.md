@@ -108,8 +108,10 @@ Operatory/zapytania, których nauczyłam się z kursu:
 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
 
 **Rozwiązanie:**
+```
 SELECT * FROM actors
 ORDER BY surname;
+```
 
 ![Przechwytywanie](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/4bf65f2d-a8de-44cd-b0c4-320964627176)
 
