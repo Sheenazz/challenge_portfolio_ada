@@ -194,3 +194,46 @@ SET
 surname = REPLACE(surname, 'Muler', 'Miler');
 
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/b68756b5-6dc3-460c-a315-b87b35ba7489)
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+
+**Rozwiązanie:**
+SELECT name, surname, email 
+FROM customers
+INNER JOIN sale
+ON customers.customer_id = sale.customer_id
+WHERE movie_id = "4";
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/7e050151-0132-42bf-bc87-46998e895f3c)
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+**Rozwiązanie:**
+UPDATE customers
+SET email = "pati@mail.com"
+WHERE customer_id = 4;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/8efe296f-2915-405f-88b7-c38aa2f59027)
+
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
+**Rozwiązanie:**
+SELECT customers.name, customers.surname, movies.title
+FROM sale
+INNER JOIN customers
+ON sale.customer_id = customers.customer_id
+INNER JOIN movies
+ON sale.movie_id = movies.movie_id;
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/310e1886-c593-4193-84c2-f0f489c748d9)
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+**Rozwiązanie:**
+ALTER TABLE customers
+ADD COLUMN pseudonym varchar(3);
+
+UPDATE customers 
+SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname, 1));
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/2cdb844a-b1ed-478c-8862-cf47e07d7bb2)
