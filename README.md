@@ -339,4 +339,4 @@ Wynik testu Ecru ze strony http://getistqb.com/: **12/15**
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/bde8d864-bbb9-4f08-8a99-f7e172de0e5a)
 
 ## Subtask 3
-:point_right: **Link do mojego portfolio:** 
+:point_right: **Link do mojego portfolio:** [Portfolio](https://github.com/Sheenazz/portfolio)
