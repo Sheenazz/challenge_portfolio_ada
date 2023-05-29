@@ -185,3 +185,12 @@ SELECT * FROM movies
 WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 ![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/8c8c9a22-4110-4608-b037-3a7f34b95214)
+
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+
+**Rozwiązanie:**
+UPDATE customers
+SET
+surname = REPLACE(surname, 'Muler', 'Miler');
+
+![image](https://github.com/Sheenazz/challenge_portfolio_ada/assets/33284536/b68756b5-6dc3-460c-a315-b87b35ba7489)
