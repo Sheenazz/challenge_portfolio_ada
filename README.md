@@ -53,6 +53,14 @@ Interfejs jest prosty i przejrzysty, ale mógłby być bardziej intuicyjny. Nie 
 Pisanie przypadków testowych jest też przydatne przy automatyzacji testów, ponieważ kroki jakie powinny być zautomatyzowane są dokładnie opisane.
 
 
+# Task 3
+## Subtask 1 & 2
+:point_right: **Link do formatki raportowania błędów:** [Bugs (Scouts panel)](https://docs.google.com/spreadsheets/d/1F-ZyPfMFRieTjWQvAOFFmImRwYYWN5NNYOaPz7O7mT0/edit?usp=drive_link)
+
+## Subtask 3
+:point_right: **Link do raportu błędów:** [Bug's report (Scouts panel)](https://docs.google.com/document/d/1NQPNzUf3rsSLTEbwPhdpjCbYrvy03do_6ydZrNhsDfk/edit?usp=drive_link)
+
+
 # Task 4
 ## Subtask 3
 
